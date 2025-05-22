@@ -77,9 +77,6 @@ These plots helped identify a strong seasonal pattern and upward sales trend, gu
 | LSTM                     | 80.4B           | 283,671  | 8.82%  |
 | SVM                      | 81.2B           | 284,986  | 10.52% |
 
-### 📊 Forecast vs Actual (SARIMA Example)
-![SARIMA Forecast](plots/sarima_forecast.png)
-
 ---
 
 ## 🔑 Key Findings
@@ -88,26 +85,51 @@ These plots helped identify a strong seasonal pattern and upward sales trend, gu
 - Achieved the **lowest error metrics** (MSE: 47.9B, RMSE: 218,916, MAPE: 7.06%).
 - Effectively captured **seasonal patterns and trends**, especially after ensuring stationarity.
 - Required minimal data preprocessing when automated parameter selection (`auto_arima`) was used.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa87c5a5-c1e1-43a9-a0cf-273ac75f48a7" width="50%" />
+</p>
+<p align="center"><strong>Figure: SARIME model forecasting </strong></p>
 
 ### 🔁 2. Triple Exponential Smoothing Was a Strong Traditional Competitor
 - Second-best performance (MAPE: 7.84%).
 - Fast and computationally efficient.
 - Slightly underperformed during rapid growth periods.
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d763c1f0-560d-4ed9-9e3d-119a6e2e7616" width="50%" />
+</p>
+<p align="center"><strong>Figure: Triple Exponential Smoothing Forecasting </strong></p>
 ### 🧠 3. RNN and LSTM Faced Challenges with Small Datasets
 - **RNN** had a MAPE of 8.23%
 - **LSTM** had a MAPE of 8.82%
 - Forecasts often **too smooth**, missing seasonal signals.
 - High computational cost with **limited gain**.
+<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/ddb29c27-2451-41ce-bb05-427b6fcfc9ab" width="300px" />
+    <p><strong>Figure: RNN model forecasting</strong></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/b14a09cb-ec42-4755-b826-f6b0e3d2fcbf" width="300px" />
+    <p><strong>Figure: LSTM model forecasting</strong></p>
+  </div>
+</div>
 
 ### ⚠️ 4. SVM Was the Least Accurate
 - MAPE: **10.52%**.
 - Misrepresented both dips and spikes.
 - Not suitable for univariate time series without engineered features.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/01482c01-545c-4832-9a0d-3fb9e93f1e47" width="50%" />
+</p>
+<p align="center"><strong>Figure: SVM model forecasting </strong></p>
 
 ### 📊 5. Classical Models Outperformed Machine Learning on Small Seasonal Data
 - Demonstrated that **complexity ≠ accuracy**.
 - In short, seasonal datasets, simpler statistical methods **performed best**.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f283777-23f0-4416-9b5a-f9dc2a865a81" width="50%" />
+</p>
+<p align="center"><strong>Figure: Comparison of Forecasting Models (only forecasted period) </strong></p>
 
 ---
 
@@ -122,16 +144,18 @@ These plots helped identify a strong seasonal pattern and upward sales trend, gu
 ## 📈 Visual Summary
 
 ### 🔍 Model Accuracy Comparison
-![Model Comparison](plots/model_comparison.png)
-
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/29af14ea-7593-48ad-8462-ffe1f78d1557" >
+</p>
+<p align="center"><strong>Figure: Performance comparison of all models </strong></p>
 ---
 
 ## 🧪 How to Run This Project
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/time-series-forecasting-comparison.git
-cd time-series-forecasting-comparison
+git clone https://https://github.com/mizanur-ds/Comparative_Analysis_of_Time_Series_Forecasting_Using_Statistical_Methods_-_Machine_Learning_Models.git
+Comparative_Analysis_of_Time_Series_Forecasting_Using_Statistical_Methods_-_Machine_Learning_Models
 
 # Create a virtual environment
 python -m venv venv
