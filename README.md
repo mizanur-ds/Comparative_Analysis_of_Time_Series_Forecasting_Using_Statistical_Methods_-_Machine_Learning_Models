@@ -24,37 +24,31 @@ This study investigates the effectiveness of five forecasting methods on a real-
 - **Characteristics**: Seasonal trends, non-stationary, clean (no missing values)
 
 ---
-
-## 🔍 Exploratory Data Analysis (EDA)
-
 ## 🔍 Exploratory Data Analysis (EDA)
 
 ### 📈 Monthly Sales Over Time & Threshold Highlights
 
-<p align="center">
-  <img src="plots/monthly_sales.png" alt="Monthly Sales" width="48%">
-  <img src="https://github.com/user-attachments/assets/194217f6-c9f5-4808-a0e1-7480c1015715" alt="Threshold Highlights" width="48%">
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/64fed17d-2581-4049-8244-d5bbd63e75f5" alt="Monthly Sales" width="48%">
 </p>
 
 ### 🔄 Decomposition (Trend + Seasonality)
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/06526244-1086-44c3-b9f4-11c439017be0" alt="Decomposition Plot" width="70%">
 </p>
 
 ### 📦 Monthly Boxplot
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/f11af21d-9d37-42fa-9e7e-5d39b09543e2" alt="Monthly Boxplot" width="60%">
 </p>
 
 ### 📊 Distribution of Sales
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/775edfcb-c7e3-481c-bcec-1aa0ebf36e2c" alt="Sales Distribution Histogram" width="60%">
 </p>
-
-
 
 These plots helped identify a strong seasonal pattern and upward sales trend, guiding model selection and feature engineering.
 
