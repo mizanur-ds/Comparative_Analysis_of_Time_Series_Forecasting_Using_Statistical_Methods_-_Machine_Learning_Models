@@ -35,19 +35,19 @@ This study investigates the effectiveness of five forecasting methods on a real-
 ### 🔄 Decomposition (Trend + Seasonality)
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/06526244-1086-44c3-b9f4-11c439017be0" alt="Decomposition Plot" width="70%">
+  <img src="https://github.com/user-attachments/assets/06526244-1086-44c3-b9f4-11c439017be0" alt="Decomposition Plot" width="48%">
 </p>
 
 ### 📦 Monthly Boxplot
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/f11af21d-9d37-42fa-9e7e-5d39b09543e2" alt="Monthly Boxplot" width="60%">
+  <img src="https://github.com/user-attachments/assets/f11af21d-9d37-42fa-9e7e-5d39b09543e2" alt="Monthly Boxplot" width="48%">
 </p>
 
 ### 📊 Distribution of Sales
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/775edfcb-c7e3-481c-bcec-1aa0ebf36e2c" alt="Sales Distribution Histogram" width="60%">
+  <img src="https://github.com/user-attachments/assets/775edfcb-c7e3-481c-bcec-1aa0ebf36e2c" alt="Sales Distribution Histogram" width="48%">
 </p>
 
 These plots helped identify a strong seasonal pattern and upward sales trend, guiding model selection and feature engineering.
