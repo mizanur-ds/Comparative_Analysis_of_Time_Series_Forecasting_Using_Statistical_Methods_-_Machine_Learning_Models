@@ -86,7 +86,7 @@ These plots helped identify a strong seasonal pattern and upward sales trend, gu
 - Effectively captured **seasonal patterns and trends**, especially after ensuring stationarity.
 - Required minimal data preprocessing when automated parameter selection (`auto_arima`) was used.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fa87c5a5-c1e1-43a9-a0cf-273ac75f48a7" width="50%" />
+  <img src="https://github.com/user-attachments/assets/c7105aba-515e-453c-8861-a297303795bb" width="50%" />
 </p>
 <p align="center"><strong>Figure: SARIME model forecasting </strong></p>
 
@@ -103,23 +103,21 @@ These plots helped identify a strong seasonal pattern and upward sales trend, gu
 - **LSTM** had a MAPE of 8.82%
 - Forecasts often **too smooth**, missing seasonal signals.
 - High computational cost with **limited gain**.
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
-  <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/ddb29c27-2451-41ce-bb05-427b6fcfc9ab" width="300px" />
-    <p><strong>Figure: RNN model forecasting</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/b14a09cb-ec42-4755-b826-f6b0e3d2fcbf" width="300px" />
-    <p><strong>Figure: LSTM model forecasting</strong></p>
-  </div>
-</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ddb29c27-2451-41ce-bb05-427b6fcfc9ab" width="50%" />
+</p>
+<p align="center"><strong>Figure: RNN model forecasting </strong></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b14a09cb-ec42-4755-b826-f6b0e3d2fcbf" width="50%" />
+</p>
+<p align="center"><strong>Figure: LSTM model forecasting </strong></p>
 
 ### ⚠️ 4. SVM Was the Least Accurate
 - MAPE: **10.52%**.
 - Misrepresented both dips and spikes.
 - Not suitable for univariate time series without engineered features.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/01482c01-545c-4832-9a0d-3fb9e93f1e47" width="50%" />
+  <img src="https://github.com/user-attachments/assets/fb593724-6b77-4dc8-abc4-fad7629063fd" width="50%" />
 </p>
 <p align="center"><strong>Figure: SVM model forecasting </strong></p>
 
